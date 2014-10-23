@@ -16,27 +16,6 @@ body
 	background-color: #333;
 }
 
-.navbar a:focus 
-{
-    outline: 0;
-}
-
-.navbar .navbar-nav 
-{
-    letter-spacing: 1px;
-}
-
-.navbar .navbar-nav li a:focus 
-{
-    outline: 0;
-}
-
-.navbar-default,
-.navbar-inverse 
-{
-    border: 0;
-}
-
 @media(min-width:768px) 
 {
     .navbar-fixed-top 
@@ -64,4 +43,108 @@ body
 	{
         font-size: 1.5em;
     }
+}
+
+header
+{
+    text-align: center;
+    color: #fff;
+    background: #333;
+}
+
+header .container
+{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header img 
+{
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header .intro-text .name 
+{
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+header .intro-text .info 
+{
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+@media(min-width:768px) 
+{
+    header .container 
+	{
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    header .intro-text .name 
+	{
+        font-size: 4.75em;
+    }
+
+    header .intro-text .info 
+	{
+        font-size: 1.75em;
+    }
+}
+
+section 
+{
+    padding: 100px 0;
+}
+
+section h2 
+{
+    margin: 0;
+    font-size: 3em;
+}
+
+@media(max-width:767px) 
+{
+    section 
+	{
+        padding: 75px 0;
+    }
+
+    section.first
+	{
+        padding-top: 75px;
+    }
+}
+
+footer 
+{
+    color: #fff;
+}
+
+footer h3 
+{
+    margin-bottom: 30px;
+}
+
+footer .footer-above 
+{
+    padding-top: 50px;
+    background-color: #333;
+}
+
+footer .footer-col 
+{
+    margin-bottom: 50px;
+}
+
+footer .footer-below 
+{
+    padding: 25px 0;
+    background-color: #222;
 }
